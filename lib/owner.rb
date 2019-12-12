@@ -36,4 +36,8 @@ class Owner
   def dogs
     Dog.all.select {|x| x.owner == self}
   end
+
+  def buy_cat
+
+  end
 end
