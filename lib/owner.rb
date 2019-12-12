@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
 
   attr_reader :name, :cat
@@ -30,5 +31,6 @@ class Owner
 
   def cats
     self.cat.all
+    binding.pry
   end
 end
