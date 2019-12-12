@@ -15,4 +15,8 @@ class Dog
   def self.all
     @@all
   end
+
+  def dogs
+
+  end
 end
