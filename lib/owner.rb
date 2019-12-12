@@ -30,7 +30,7 @@ class Owner
   end
 
   def cats
-      Cat.all
+      Cat.all.name
       binding.pry
   end
 end
