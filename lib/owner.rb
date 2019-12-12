@@ -62,6 +62,5 @@ class Owner
     scared_cats = self.cats
     scared_cats.each {|cat| cat.mood = "nervous"}
     scared_cats.each {|cat| cat.owner = nil}
-
   end
 end
