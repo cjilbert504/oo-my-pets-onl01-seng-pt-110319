@@ -38,7 +38,7 @@ class Owner
   end
 
   def buy_cat(cat_name)
-    new_cat = Cat.new(cat_name)
+    Cat.initialize(cat_name, self)
     binding.pry
   end
 end
