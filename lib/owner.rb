@@ -43,6 +43,6 @@ class Owner
   end
 
   def buy_dog(dog_name)
-    
+
   end
 end
