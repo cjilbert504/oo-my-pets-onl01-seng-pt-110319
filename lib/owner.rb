@@ -38,6 +38,6 @@ class Owner
   end
 
   def buy_cat
-
+    
   end
 end
