@@ -38,7 +38,6 @@ class Owner
   end
 
   def buy_cat(cat_name)
-    Cat.all.select {|cat| cat.name == cat_name}
-    binding.pry
+    new_cat = Cat.new(cat_name)
   end
 end
