@@ -41,6 +41,6 @@ class Owner
     new_cat = Cat.new(cat_name)
     binding.pry
     new_cat.owner = self
-    
+
   end
 end
