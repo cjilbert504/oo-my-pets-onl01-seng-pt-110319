@@ -41,4 +41,8 @@ class Owner
     Cat.new(cat_name, self)
     #binding.pry
   end
+
+  def buy_dog
+
+  end
 end
