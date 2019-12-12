@@ -42,7 +42,7 @@ class Owner
     #binding.pry
   end
 
-  def buy_dog
+  def buy_dog(dog_name)
     
   end
 end
