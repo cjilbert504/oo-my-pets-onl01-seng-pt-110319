@@ -27,7 +27,7 @@ class Owner
   def self.reset_all
     self.all.clear
   end
-  
+
   def cats
 
   end
