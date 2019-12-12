@@ -38,6 +38,6 @@ class Owner
   end
 
   def buy_cat(cat_name)
-
+    binding.pry
   end
 end
