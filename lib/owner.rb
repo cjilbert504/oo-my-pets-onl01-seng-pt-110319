@@ -46,7 +46,7 @@ class Owner
   end
 
   def walk_dogs
-    Dog.mood
+    self
     binding.pry
   end
 end
