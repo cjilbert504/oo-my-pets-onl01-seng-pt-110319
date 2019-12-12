@@ -16,7 +16,4 @@ class Dog
     @@all
   end
 
-  def dogs
-    Dog.all.select {|x| x.owner == self}
-  end
 end
